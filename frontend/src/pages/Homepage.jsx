@@ -7,8 +7,8 @@ import {
 } from "@chakra-ui/react"
 import { useEffect } from "react"
 import { Link } from "react-router-dom"
-import { useProductStore } from "../store/product"
-import ProductCard from "../components/ProductCard"
+import { useProductStore } from "../store/product.js"
+import ProductCard from "../components/ProductCard.jsx"
 
 export const Homepage = () => {
     // fetching products

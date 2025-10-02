@@ -6,6 +6,10 @@
     "module": "ESNext",
     "types": [],
     "skipLibCheck": true,
+    "allowJs": true,
+    "allowJs": true, // Make sure this is true in your tsconfig.app.json as well
+    "checkJs": false,
+    
 
     /* Bundler mode */
     "moduleResolution": "bundler",
