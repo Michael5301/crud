@@ -1,0 +1,24 @@
+{
+    "name": "mern-stack-1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon backend/server.js"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@tailwindcss/vite": "^4.1.13",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.2",
+        "express": "^5.1.0",
+        "mongoose": "^8.18.0",
+        "tailwindcss": "^4.1.13"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
+}
