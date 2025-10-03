@@ -132,7 +132,7 @@ const ProductCard = ({ product }) => {
                                     placeholder="Product Image Url"
                                     name="image"
                                     value={updatedProduct.image}
-                                    onChange={(e) => setUpdatedProduct({ ...updatedProduct, price: e.target.value, })}
+                                    onChange={(e) => setUpdatedProduct({ ...updatedProduct, image: e.target.value, })}
                                      />
                             </VStack>
                         </Box>
